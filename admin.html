@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="./css/admin.css">
+ 
+</head>
+<body>
+
+  <div class="adminContainer">
+    <div class="imageAdmin">
+        <img src="https://th.bing.com/th/id/OIP._qFFQkSvUdaaN4okXsNGrgHaE7?rs=1&pid=ImgDetMain" alt="">
+    </div>
+    <div class="contact-form">
+        <h2>Create New Product</h2>
+        <form action="" id="contactForm">
+            <input type="text" placeholder="Add Product Name" id="name_product">
+            <input type="text" placeholder="Add Product Price" id="price_product">
+            <input type="url" placeholder="Link image" id="image_product">
+            <input type="text" placeholder="Category Product" id="category_product"> 
+            <textarea name="describe"  placeholder="Describe Product" id="describe_text"></textarea>
+            <button type="submit" id="button">Add Product</button>
+        </form>
+        <p id="statusMessage"></p>
+      </div>
+  </div>
+
+  <script type="module" src="./js/admin.js"></script>
+</body>
+</html>
